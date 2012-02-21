@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentNHSample", "FluentNHSample\FluentNHSample.csproj", "{16510957-E7E9-49AE-B4FB-289747ED59C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceTests", "PersistenceTests\PersistenceTests.csproj", "{2DF2B6F0-D46B-4759-BC07-E5A7ABED099F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{16510957-E7E9-49AE-B4FB-289747ED59C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16510957-E7E9-49AE-B4FB-289747ED59C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16510957-E7E9-49AE-B4FB-289747ED59C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF2B6F0-D46B-4759-BC07-E5A7ABED099F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF2B6F0-D46B-4759-BC07-E5A7ABED099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF2B6F0-D46B-4759-BC07-E5A7ABED099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF2B6F0-D46B-4759-BC07-E5A7ABED099F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

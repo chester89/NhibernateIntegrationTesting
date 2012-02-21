@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FluentNHSample">
+</Property><Property Name="Solution File" Value="E:\projects\.NET\FluentNHSample2\FluentNHSample.sln">
+</Property><Property Name="User Options File" Value="E:\projects\.NET\FluentNHSample2\FluentNHSample.suo">
+</Property><Property Name="Date" Value="7 сентября 2010 г.">
+</Property><Property Name="Time" Value="23:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FluentNHSample.sln" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FluentNHSample.suo" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample.suo">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\FluentNHSample.csproj" Description="Project file successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\FluentNHSample.csproj">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\FluentNHSample.csproj.user" Description="Project user file successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\FluentNHSample.csproj.user">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Conventions\CustomFKConvention.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Conventions\CustomFKConvention.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Conventions\CustomManyToManyConvention.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Conventions\CustomManyToManyConvention.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Entities\Employee.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Entities\Employee.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Entities\Product.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Entities\Product.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Entities\Store.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Entities\Store.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Mappings\EmployeeMap.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Mappings\EmployeeMap.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Mappings\ProductMap.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Mappings\ProductMap.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Mappings\StoreMap.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Mappings\StoreMap.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Program.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Program.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\SessionFactoryBuilder.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\SessionFactoryBuilder.cs">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\App.config" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\App.config">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\db.sql" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\db.sql">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\dbClear.sql" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\FluentNHSample\dbClear.sql">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\FluentNHSample.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FluentNHSample" Source="FluentNHSample\FluentNHSample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\PersistenceTests.csproj" Description="Project file successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\PersistenceTests\PersistenceTests.csproj">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\PersistenceTest.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\PersistenceTests\PersistenceTest.cs">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\PersistenceTests\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\App.config" Description="File successfully backed up as E:\projects\.NET\FluentNHSample2\Backup\PersistenceTests\App.config">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\PersistenceTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PersistenceTests" Source="PersistenceTests\PersistenceTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FluentNHSample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FluentNHSample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FluentNHSample" Source="FluentNHSample\FluentNHSample.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PersistenceTests" Source="PersistenceTests\PersistenceTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

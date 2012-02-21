@@ -5,7 +5,7 @@ using FluentNHibernate.Conventions;
 namespace FluentNHSample.Conventions {
     public class CustomManyToManyConvention : ManyToManyTableNameConvention {
         protected override String GetBiDirectionalTableName(IManyToManyCollectionInspector collection, IManyToManyCollectionInspector otherSide) {
-            return collection.EntityType.Name + otherSide.EntityType.Name;
+            return otherSide.EntityType.Name + collection.EntityType.Name;
         }
 
         protected override String GetUniDirectionalTableName(IManyToManyCollectionInspector collection) {

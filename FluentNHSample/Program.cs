@@ -1,23 +1,24 @@
 ﻿using System;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
+using FluentNHSample.Conventions;
 using FluentNHSample.Entities;
 using NHibernate;
-using FluentNHSample.Conventions;
-using FluentNHibernate.Conventions.Helpers;
 
 namespace FluentNHSample {
-    class Program {
+    public class Program {
         static void Main(String[] args) {
             ISessionFactory sessionFactory = null;
             try {
-                sessionFactory = CreateSessionFactory();
+                //sessionFactory = CreateSessionFactory();
+                sessionFactory = SessionFactoryBuilder
+                    .BuildSessionFactoryFromAppConfig<Program, CustomForeignKeyConvention>("Database");
             }
             catch (Exception e) {
                 Console.WriteLine("Exception occurred: " + e.Message);
             }
-            Console.WriteLine("Session factory was built");
-
+            Console.WriteLine("Session factory has been built successfully");
+            
             using (var session = sessionFactory.OpenSession()) {
                 using (var transaction = session.BeginTransaction()) {
                     // create a couple of Stores each with some Products and Employees
@@ -67,7 +68,7 @@ namespace FluentNHSample {
             }
         }
 
-        private static ISessionFactory CreateSessionFactory() {
+        static ISessionFactory CreateSessionFactory() {
             Console.WriteLine("Building session factory");
             return Fluently.Configure()
                    .Database(MsSqlConfiguration.MsSql2008.ConnectionString(c => c.FromConnectionStringWithKey("Database"))).
